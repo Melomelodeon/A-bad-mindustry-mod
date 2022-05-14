@@ -1,0 +1,35 @@
+{
+//details
+  "type": "ItemBridge",
+  "name": "Bridge",
+  "description": "A bridge exclusive to bodies of water, extends up to 5 blocks",
+  "category": "distribution",
+//specs
+  "health": 50,
+  "requiresWater": true,
+  "range": 5,
+  "transportTime": 2,
+//requirements 
+  "requirements": [
+    {
+      "item": "lead",
+      "amount": 10
+    },
+    {
+      "item": "metaglass",
+      "amount": 15
+    },
+    {
+      "item": "titanium",
+      "amount": 5
+    }
+  ],
+  "hasPower": false,
+  "research": {
+      parent: "bridge-conveyor"
+      requirements: [
+      metaglass/200,
+      titanium/100
+      ]
+  }
+}

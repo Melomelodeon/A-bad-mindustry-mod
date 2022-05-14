@@ -1,0 +1,35 @@
+{
+//details
+  "type": "ItemBridge",
+  "name": "Thorium Bridge",
+  "description": "Transports items over buildings and terrain, extends up to 10 blocks",
+//specs
+  "health": 70,
+  "range": 10,
+  "transportTime": 1,
+  "hasPower": false,
+  "category": "distribution",
+//requirements
+  "requirements": [
+    {
+      "item": "lead",
+      "amount": 10
+    },
+    {
+      "item": "thorium",
+      "amount": 10
+    },
+    {
+      "item": "titanium",
+      "amount": 10
+    }
+  ],
+  "research": {
+      parent: "bridge-conveyor"
+      requirements: [
+      thorium/200,
+      titanium/300,
+      lead/150
+      ]
+  }
+}

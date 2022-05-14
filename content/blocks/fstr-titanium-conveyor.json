@@ -1,0 +1,31 @@
+{
+//details
+    "type": "Conveyor",
+    "name": "Alloy Conveyor",
+    "description": "Faster than a titanium conveyor, More expensive"
+    "details": "Saves you the trouble of requiring surge alloy by building with raw materials"
+    
+//specs  
+    "category": "distribution",
+    "health": 90,
+    "speed": 0.19,
+    "displayedSpeed": 20,
+    
+//requirements
+    "requirements": [
+        {"item": "copper", "amount": 2},
+        {"item": "lead", "amount": 2},
+        {"item": "silicon", "amount": 1},
+        {"item": "thorium", "amount": 1},
+        {"item": "titanium", "amount": 1}
+    ],
+    "research": {
+      parent: "titanium-conveyor"
+      requirements: [
+      copper/300,
+      titanium/5000,
+      thorium/50,
+      silicon/50
+      ]
+  }
+}
