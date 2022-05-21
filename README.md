@@ -1,3 +1,6 @@
 # Preview
-i definitely have to fix that conveyor.
-![Test Image 1](Screenshot2.png)
+v1.0.1
+-preview changed
+-re-textured conveyors
+-balance changes
+![Test Image 1](Screenshot_3.png)
