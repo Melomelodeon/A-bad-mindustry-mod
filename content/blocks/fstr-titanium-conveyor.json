@@ -3,7 +3,7 @@
     "type": "Conveyor",
     "name": "Alloy Conveyor",
     "description": "Faster than a titanium conveyor, more expensive"
-    "details": "Saves you the trouble of requiring surge alloy by building with raw materials"
+    "details": "it tries to fix your clogging problems"
     
 //specs  
     "category": "distribution",
@@ -22,10 +22,10 @@
     "research": {
       parent: "titanium-conveyor"
       requirements: [
-      copper/300,
-      titanium/5000,
-      thorium/50,
-      silicon/50
+      copper/1000,
+      titanium/500,
+      thorium/500,
+      silicon/500
       ]
   }
 }
