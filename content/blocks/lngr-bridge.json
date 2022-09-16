@@ -5,7 +5,7 @@
   "description": "Transports items over buildings and terrain, extends up to 10 blocks",
 //specs
   "health": 70,
-  "range": 10,
+  "range": 11,
   "transportTime": 1,
   "hasPower": false,
   "category": "distribution",
@@ -13,7 +13,7 @@
   "requirements": [
     {
       "item": "lead",
-      "amount": 10
+      "amount": 5
     },
     {
       "item": "thorium",
@@ -27,9 +27,9 @@
   "research": {
       parent: "bridge-conveyor"
       requirements: [
-      thorium/200,
+      lead/200,
       titanium/300,
-      lead/150
+      thorium/200
       ]
   }
 }
