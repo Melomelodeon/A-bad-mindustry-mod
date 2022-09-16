@@ -3,7 +3,7 @@
     "type": "StackConveyor",
     "name": "Silicon Conveyor"
     "description": "Transports batches of items at over 85 items per second",
-     "details": "Expensive... yes!",
+     "details": "Pretty expensive for what it does",
 //specs
     "category": "distribution",
     "health": 90,
@@ -20,12 +20,11 @@
     "research": {
       parent: "plastanium-conveyor"
       requirements: [
-      copper/200,
+      copper/100,
       lead/200,
-      titanium/100,
+      titanium/200,
       graphite/100,
-      silicon/100,
-      plastanium/100
+      silicon/100
       ]
   }
 }
