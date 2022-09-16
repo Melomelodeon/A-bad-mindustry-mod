@@ -26,10 +26,10 @@
 	"research": {
 	    parent: mass-driver
 	    requirements: [
-	    plastanium/200,
-	    copper/500,
-	    titanium/350,
-	    silicon/100,
+            thorium/500,
+	    copper/3000,
+	    titanium/3000,
+	    silicon/500,
 	    ]
 	}
 }
