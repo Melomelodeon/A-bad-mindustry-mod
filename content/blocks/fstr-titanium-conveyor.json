@@ -3,11 +3,11 @@
     "type": "Conveyor",
     "name": "Alloy Conveyor",
     "description": "Faster than a titanium conveyor, more expensive"
-    "details": "it tries to fix your clogging problems"
+    "details": "fix your clogging problems"
     
 //specs  
     "category": "distribution",
-    "health": 90,
+    "health": 80,
     "speed": 0.19,
     "displayedSpeed": 20,
     
@@ -22,10 +22,10 @@
     "research": {
       parent: "titanium-conveyor"
       requirements: [
-      copper/1000,
-      titanium/500,
-      thorium/500,
-      silicon/500
+      copper/100,
+      titanium/100,
+      thorium/100,
+      silicon/90
       ]
   }
 }
